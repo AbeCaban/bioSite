@@ -6,33 +6,73 @@
     height: 490px;
 	border-radius: 100px;
 	float: left;
+	padding-left: 2%;
 	
 } 
+#TravelCarAccomp{
+	font-size: 200%;
+	padding-left: 10%;
+}
+#GradGirlAccomp{
+	font-size: 200%;
+}
+#ShygirlAccomp{
+	font-size: 200%;
+}
+#indexImage{
+	float: left;
+	padding-right: 10%;
 
+}
+#TravelCarblock{
+	padding-bottom: 10%;
+}
+#Gradgirlblock{
+	padding-bottom: 15%;
+}
+#Shygirlblock{
+	padding-bottom: 10%;
+}
+
+
+
+#SubjectLandingPage{
+	color: #2c1132;
+	text-align:  center;
+	font-size: 48pt;
+	padding-left:5px;
+    padding-right: 5px;
+	font-family: 'Courier New', Courier, monospace;
+}
+#LandingPageHeading{
+	background-color: #9c44ac;
+	padding: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
 #SubjectNameAboutPage{
 	color: #2c1132;
-	text-align:  right;
+	text-align:  center;
 	font-size: 55pt;
 	padding-left:5px;
     padding-right: 5px;
     padding-top: 200px;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 #PagesBody{
 	background-color: #80ccc8;
 }
 #AboutContent{
-	font-size: larger;
+	font-size: 20pt;
+	padding-bottom: 100px;
+	padding-left: 2%;
 }
-
-footer{
-    background-color: #9c44ac;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 20px;
-    left: 0;
-	text-align: center;
+#AccompishmentList{
+	margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 90px;
+    padding: 10px;
 }
 
 #SkatesPicture{
@@ -43,25 +83,43 @@ footer{
 	width: 327px;
 	height: 258px;
 }
-#PozzlePicture{
-
-}
-
 #SubjectNameHobbiesPage{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	text-align: center;
+	color: #2c1132;
 }
 .hobbiesgrid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 10px;
+	border: 2px solid #9c44ac;
+	border-radius: 10%;
 }
 h3{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	text-align: center;
+	font-weight: 500;
+    color: #2c1132;
+	font-size: 24pt;
+}
+footer{
+    background-color: #2c1132;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    left: 0;
+	text-align: center;
+}
+figcaption{
+	font-weight: 500;
+    color: #2c1132;
+	font-size: 18pt;
 }
 footer a{
 	background-color: #9c44ac;
     text-decoration: none;
-    color: white;
+    color: #2c1132;
 	padding-left: 10px;
     padding-right: 10px;
     font-weight: 500;
@@ -69,15 +127,20 @@ footer a{
     font-size: 25px;}
 #HobbiesPageLink{
 	margin-right: 150px;
+	box-shadow: 0 4px 8px 0 rgb(252, 255, 78);
+
 }
 #LandingPagelink{
 	margin-left: 150px;
+	box-shadow: 0 4px 8px 0 rgb(252, 255, 78);
 }
 #AboutPageLink{
 	margin-left: 150px;
+	box-shadow: 0 4px 8px 0 rgb(252, 255, 78);
 }
 #AboutPageLinkATH{
 	margin-right: 150px;
+	box-shadow: 0 4px 8px 0 rgb(252, 255, 78);
 }
 footer a:hover{
     text-decoration: underline;}
