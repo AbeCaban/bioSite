@@ -66,6 +66,7 @@
 	font-size: 20pt;
 	padding-bottom: 100px;
 	padding-left: 2%;
+	padding-right: 2%;
 }
 #AccompishmentList{
 	margin-top: 1%;
@@ -92,8 +93,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 10px;
-	border: 2px solid #9c44ac;
-	border-radius: 10%;
+	/* border: 2px solid #9c44ac;
+	border-radius: 10%; */
+}
+.grid-item{
+    border: 1px solid #9c44ac ;
+    border-radius: 10px;;
 }
 h3{
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
